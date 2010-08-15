@@ -11,7 +11,6 @@ public class GameScreen extends Activity {
 	super.onCreate(savedInstanceState);
     gamePanel = new GamePanel(this);
 	setContentView(gamePanel);
-	(new Thread(gamePanel)).start();
   }
 
 @Override
